@@ -7,6 +7,14 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
+
+	// Icons
+	import IconRadar from "~icons/lucide/radar";
+	import IconTarget from "~icons/lucide/target";
+	import IconShield from "~icons/lucide/shield";
+	import IconSettings from "~icons/lucide/settings";
+	import IconFileText from "~icons/lucide/file-text";
+	import IconZap from "~icons/lucide/zap";
 </script>
 
 <CenteredTextOnlyHero
@@ -31,54 +39,73 @@
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Marcus Rodriguez",
+			position: "Security Director",
+			company: "Regional Airport Authority",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Sentradel's acoustic detection caught three drone intrusions that our $400K radar system completely missed. We've prevented two potential runway shutdowns that would have cost us $2.3M in delays and diversions.",
+			image: "/generated/image-professional-headshot-of-marcus-rodrigue.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Sarah Chen",
+			position: "Operations Manager",
+			company: "Pacific Energy Solutions",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Since installing Sentradel's system six months ago, we've eliminated 14 unauthorized drone flyovers of our power substation. Their 8-second response time gives us the protection we need without the $500K+ price tag of legacy systems.",
+			image: "/generated/image-professional-headshot-of-sarah-chen-asia.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "David Thompson",
+			position: "Chief Security Officer",
+			company: "Metropolitan Correctional Facility",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Contraband drops via drone were a weekly nightmare costing us thousands in investigations. Sentradel's kinetic interception system has stopped 23 attempts this year, with zero false positives. Our incident reports dropped 89%.",
+			image: "/generated/image-photorealistic-professional-headshot-of-.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Advanced counter-drone technology"
+	subtitle="Protecting critical infrastructure with acoustic detection and AI-powered kinetic interception systems that neutralize threats within seconds."
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Acoustic detection arrays",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Bypass jamming vulnerabilities that plague existing radar solutions with our proprietary acoustic sensor networks that detect drone signatures at extended ranges.",
+			icon: IconRadar
 		},
 		{
-			title: "Data Analysis",
+			title: "AI-powered kinetic interception",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Autonomous targeting systems combine machine learning with precision mechanics to neutralize drone threats before they reach critical infrastructure.",
+			icon: IconTarget
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Critical infrastructure protection",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Purpose-built for airports, prisons, and power plants with specialized threat profiles and regulatory compliance requirements for each facility type.",
+			icon: IconShield
+		},
+		{
+			title: "Switchable non-lethal payloads",
+			description:
+				"Address liability concerns with configurable interception methods including nets, electronic disruption, and containment systems for safe threat neutralization.",
+			icon: IconSettings
+		},
+		{
+			title: "Real-time incident reporting",
+			description:
+				"Comprehensive logging and automated reporting systems provide immediate documentation for security teams and regulatory compliance requirements.",
+			icon: IconFileText
+		},
+		{
+			title: "Sub-second response time",
+			description:
+				"Transform detected threats into neutralized targets within seconds using optimized processing pipelines that outperform traditional counter-drone systems.",
+			icon: IconZap
 		}
 	]}
 />

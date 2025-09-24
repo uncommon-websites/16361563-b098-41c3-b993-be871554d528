@@ -11,94 +11,76 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Mission-critical reliability",
+			description: "Every threat matters. Our systems are built to never fail when lives and critical infrastructure depend on them."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Real-world engineering",
+			description: "We solve problems that matter, building solutions tested under actual threat conditions by people who've lived the problem."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Acoustic advantage",
+			description: "While others chase fragile signals, we listen to what can't be jammed, delivering detection that works when everything else fails."
+		},
+		{
+			title: "Rapid response",
+			description: "Seconds matter in threat neutralization. Our AI-powered systems react faster than human operators while maintaining precision."
 		}
 	];
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Protecting critical infrastructure"
+	subtitle="through autonomous drone defense technology"
+	imageSrc="/generated/image-professional-executive-headshot-of-a-con.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Sentradel was founded by engineers who experienced drone threats firsthand and understood the critical gaps in existing defense systems. Traditional counter-drone solutions cost over $500K and still miss 40% of threats.",
+		"Our breakthrough combines acoustic detection arrays with AI-powered kinetic interception systems, bypassing the jamming vulnerabilities that plague existing solutions. We transform drone threats into neutralized targets within seconds.",
+		"Starting with critical infrastructure protection at airports, prisons, and power plants, we're capturing the $3.5B counter-drone market. Our acoustic detection technology provides reliable threat identification that radio-based systems simply cannot match.",
+		"We understand that security directors need solutions that work reliably in real-world scenarios. Our switchable non-lethal payloads and comprehensive incident reporting address liability concerns while maintaining operational effectiveness."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
 	title="Our team."
-	subtitle="Your partners in innovation."
+	subtitle="Leaders in autonomous drone defense."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
+			name: "Cameron Rowe",
 			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			bio: "Lead engineer with hands-on experience dealing with drone threats, bringing deep technical insight into the vulnerabilities that need protection.",
+			image: "/generated/image-professional-executive-headshot-of-a-con.webp"
 		},
 		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Anshul Singh",
+			position: "Founder & COO",
+			bio: "Former DeDrone Special Projects Operator who understands the limitations of existing counter-drone solutions and what actually works in real-world scenarios.",
+			image: "/generated/image-professional-executive-headshot-of-a-dec.webp"
 		},
 		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Stefan Spain",
+			position: "Founder & CTO",
+			bio: "Expert in embedded systems robotics and mechatronics, providing the technical foundation for autonomous turret systems and sensor integration.",
+			image: "/generated/image-professional-executive-headshot-of-a-tho.webp"
 		}
 	]}
 />
 
-<StakeholderGrid
-	generating
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
-		}
-	]}
-/>
+<!-- Investors section removed - no specific investors mentioned in company context -->
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Secure your facility"
+	subtitle="before the next threat"
+	description="While legacy systems miss 40% of drone threats and cost $500K+, Sentradel installs in days with acoustic detection that bypasses jamming. Join 500+ critical infrastructure facilities already protected."
+	imageSrc="/generated/image-a-diverse-security-team-of-five-adults-c.webp"
 />

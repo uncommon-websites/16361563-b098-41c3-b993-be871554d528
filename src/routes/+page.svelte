@@ -110,4 +110,21 @@
 	]}
 />
 <AboutTeaser generating />
-<CallToAction generating />
+<CallToAction
+	title="Stop the next drone intrusion before it happens"
+	subtitle="Protect your facility with proven technology"
+	description="Every day you delay, you risk operational shutdowns that cost millions. Join security directors who've eliminated 99% of drone threats with our acoustic detection and kinetic interception systems. No more missed detections. No more liability concerns."
+	imageSrc="/generated/image-professional-security-director-mid-40s-b.webp"
+	callsToAction={[
+		{
+			href: "/demo",
+			label: "Schedule live demonstration",
+			variant: "primary"
+		},
+		{
+			href: "/contact",
+			label: "Get threat assessment",
+			variant: "secondary"
+		}
+	]}
+/>

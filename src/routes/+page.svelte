@@ -6,16 +6,23 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CenteredTextOnlyHero
+	title="Neutralize drone threats within seconds"
+	subtitle="Acoustic detection arrays combined with AI-powered kinetic interception systems protect critical infrastructure from drone intrusions that current solutions miss."
+	imageSrc="/generated/image-straight-on-eye-level-view-of-a-small-in.webp"
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/boeing.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/lockheedmartin.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/rtx.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/gd.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
